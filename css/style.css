@@ -14,6 +14,10 @@ body{
 }
 .header-link {
 }
+.header-link:hover {
+    color: blue;
+}
+
 .header-mail {
 }
 .header-tel {
