@@ -3,8 +3,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .header {
+    
 }
 .header-navigation {
+    color: #2E2F42;
 }
 .header-list {
 }
@@ -16,3 +18,34 @@ body{
 }
 .header-tel {
 }
+.main_fon{
+    color:#2E2F42;
+}
+.link {
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+h1{
+    color:#FFFFFF;
+}
+.footer{
+        /*position: absolute;
+        width: 1440px;
+        height: 310px;
+        left: 0px;
+        top: 2280px;
+       */
+        background-color: #2E2F42;
+}
+/*
+.footer_text
+{
+    position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2418px;
+}
+*/
