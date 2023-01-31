@@ -1,86 +1,86 @@
 body{
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    font-size: 14px;
-    line-height:;
-}
-.header {
-    
-}
-.header-navigation {
-    color: #2E2F42;
-}
-.header-list {
-}
-.header-item {
-}
-.header-link {
-    color:#2E2F42;
-}
-.header-link:hover {
-    color:#404BBF;
-}
-
-.sty_btn{
-    background-color:#4D5AE5;
-}
-.sty_btn:hover{
-background-color:#404BBF;
-}
-.sty_btn:focus{
-
-}
-.header-mail {
-    color: #434455;
-}
-.header-mail:hover{
-    color:#404BBF;
-}
-.header-mail:focus{
-
-}
-.header-tel {
-    
-}
-.main_fon{
-    color:#2E2F42;
+    font-family: 'Roboto',sans-serif;
 }
 .link {
     text-decoration: none;
 }
-.list{
+.list {
+    display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.text{
+    text-align: center;
+}
+.sty_btn{
+    display: flex;
+    justify-content: center;
+}
+.features {
+    opacity: 0;
+}
+.works{
+    text-align: center;
+}
+.features_list{
+    list-style: none;
+    display: flex;
+}
+.works-list{
+    list-style: none;
+    display: flex;
+}
+.teams {
+    text-align: center;
 }
 
-h1{
-    color:#FFFFFF;
+.teams-list {
+    list-style: none;
+    display: flex;
 }
-.footer_logo {
-    color:#4D5AE5;
-}
-    
-.fot_stud {
-    color: #F4F4FD;
-}
-.footer_text {
 
+.teams_people1{
+     margin-right: 30px;
+    margin-left: 24px;
 }
-.footer{
-        /*position: absolute;
+.teams_people2 {
+    margin-right: 30px;
+    margin-left: 24px;
+}
+.teams_people3 {
+    margin-right: 30px;
+    margin-left: 24px;
+}
+.works-list1{
+    margin-right: 30px;
+    margin-left: 24px;
+}
+.works-list2 {
+    margin-right: 30px;
+    margin-left: 24px;
+}
+.works {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.works_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer {
+    /*position: absolute;
         width: 1440px;
         height: 310px;
         left: 0px;
         top: 2280px;
        */
-        background-color: #2E2F42;
+    background-color: #2E2F42;
 }
-/*
-.footer_text
-{
-    position: absolute;
-    width: 264px;
-    height: 72px;
-    left: 156px;
-    top: 2418px;
-}
-*/
