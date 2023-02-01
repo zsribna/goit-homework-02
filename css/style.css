@@ -4,6 +4,38 @@ body{
 .link {
     text-decoration: none;
 }
+.header-link{
+    font-size: 16px;
+    color: #2E2F42;
+}
+.header-link:hover {
+    color: #404BBF;
+}
+.header-link:focus {
+    color: #404BBF;
+}
+.header-mail {
+    color: #434455;
+    font-size: 16px;
+}
+.header-mail:hover {
+    color: #404BBF;
+}
+.header-mail:focus {
+    color: #404BBF;
+}
+
+
+.header-tel  { 
+    color: #434455;
+    font-size: 16px;
+}
+span{
+    color: #4D5AE5;
+}
+.header-logo{
+    color: #2E2F42;
+}
 .list {
     display: flex;
     list-style: none;
@@ -16,6 +48,15 @@ body{
 .sty_btn{
     display: flex;
     justify-content: center;
+}
+.col_btn{
+    background-color: #4D5AE5;
+}
+.col_btn:hover{
+    background-color: #404BBF;
+}
+.col_btn:focus{
+    
 }
 .features {
     opacity: 0;
