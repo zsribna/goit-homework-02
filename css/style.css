@@ -24,8 +24,6 @@ body{
 .header-mail:focus {
     color: #404BBF;
 }
-
-
 .header-tel  { 
     color: #434455;
     font-size: 16px;
@@ -55,8 +53,15 @@ span{
 .col_btn:hover{
     background-color: #404BBF;
 }
-.col_btn:focus{
-    
+
+.btn1{
+    background: #4D5AE5;
+}
+.btn1:hover{
+    background: #404BBF;
+}
+.btn1:focus{
+    background: #404BBF;
 }
 .features {
     opacity: 0;
